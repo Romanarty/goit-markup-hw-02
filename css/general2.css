@@ -1,0 +1,131 @@
+body {
+  color: #212121;
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+  letter-spacing: 0.06em;
+}
+header {
+  display: flex;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+:root {
+  --general-white: rgb(255, 255, 255);
+  --light-white: rgba(255, 255, 255, 0.6);
+  --main-black: #212121;
+  --nav-blue: #2196f3;
+  --hero-graphite: #2f303a;
+  --graphite: #757575;
+  --grey: #f5f4fa;
+  --logo: #000000;
+  --projects: #eeeeee;
+}
+.nav-link,
+.logo,
+.footer-contacts-link {
+  color: var(--main-black);
+  text-decoration: none;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--nav-blue);
+}
+
+button {
+  background-color: var(--grey);
+  color: var(--main-black);
+  border: none;
+  display: flex;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 34px;
+  height: 38px;
+}
+
+button:hover,
+button:focus {
+  background-color: var(--nav-blue);
+  color: var(--general-white);
+}
+
+.contacts-link {
+  color: var(--graphite);
+  text-decoration: none;
+  display: flex;
+  font-size: 14px;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--nav-blue);
+}
+
+.projects {
+  background-color: var(--projects);
+  text-align: center;
+  list-style-type: none;
+  margin: center;
+}
+span {
+  color: var(--nav-blue);
+}
+.studio {
+  color: var(--general-white);
+}
+footer {
+  background-color: var(--hero-graphite);
+}
+
+ul {
+  text-align: center;
+  display: flex;
+}
+address {
+  padding-left: 215px;
+  padding-top: 111px;
+  padding-bottom: 61px;
+}
+.footer-contacts-link {
+  color: var(--light-white);
+}
+nav,
+.header-contacts {
+  text-align: center;
+  display: inline;
+}
+a {
+  text-decoration: none;
+  color: var(--main-black);
+}
+h2 {
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  height: 36px;
+}
+p {
+  font-size: 16px;
+  color: var(--graphite);
+  letter-spacing: 0.03em;
+  height: 30px;
+}
+address > p {
+  color: var(--general-white);
+}
