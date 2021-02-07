@@ -76,7 +76,8 @@ button:focus {
 .contacts-link:hover,
 .contacts-link:focus,
 .footer-contacts-link:focus,
-.footer-contacts-link:hover {
+.footer-contacts-link:hover,
+.footer-contacts-link:visited {
   color: var(--nav-blue);
 }
 
