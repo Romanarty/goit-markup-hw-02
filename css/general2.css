@@ -74,7 +74,9 @@ button:focus {
   font-size: 14px;
 }
 .contacts-link:hover,
-.contacts-link:focus {
+.contacts-link:focus,
+.footer-contacts-link:focus,
+.footer-contacts-link:hover {
   color: var(--nav-blue);
 }
 
